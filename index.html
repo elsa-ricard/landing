@@ -1,51 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elsa Ricard - Profile</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Stations des Alpes Françaises</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="banner.css">
+    <link rel="stylesheet" href="container.css">
+    <link rel="stylesheet" href="avatar.css">
+    <link rel="stylesheet" href="card.css">
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <div class="container">
-            <!-- Banner -->
-        <div class="banner">
-            <div class="container">
-                <div class="card-white text-center">
-                <h1 id="main-title">Hello, my name is Elsa Ricard</h1>
-                <img src="IMG_7807.jpg" id="profile-img" alt="Elsa Ricard Profile Picture">
-                <p><i class="fas fa-map-marker-alt"></i> I'm 22 years old from Savoie, France, and currently a master student in purchasing at Kedge Business School.</p>
-                <p>Check out my favorite website where you can watch your favorite movies and series: 
-                    <a href="https://myflixtor.tv" target="_blank" class="btn-blue">MyFlixTor</a>
-                </p>
-            </div>
-        </div>
+    <header class="banner">
+        <h1>Bienvenue sur le guide des stations des Alpes Françaises</h1>
+    </header>
+    <main class="container">
+        <section class="card">
+            <img src="montagne1.jpg" alt="Montagne enneigée">
+            <h2>Prévisions Météo</h2>
+            <p>Consultez les prévisions météorologiques des stations de ski françaises.</p>
+            <a href="https://www.france-montagnes.com/infos-live/meteo-des-stations-de-ski" class="button">Voir la météo</a>
+        </section>
+        <section class="card">
+            <img src="montagne2.jpg" alt="Montagne enneigée">
+            <h2>Hébergements</h2>
+            <p>Trouvez des hébergements dans les stations de ski des Alpes françaises.</p>
+            <a href="https://www.ski-france.fr/" class="button">Voir les hébergements</a>
+        </section>
+        <section class="card">
+             <img src="location-materiel.jpg" alt="Location de matériel">
+              <h2>Location de Matériel</h2>
+              <p>Louez votre matériel de ski et snowboard aux meilleurs prix.</p>
+              <a href="https://www.skiset.com/" class="button">Voir les offres</a>
+        </section>
+</section>
 
-        <!-- Cards Section -->
-        <div class="cards" id="cards">
-            <div class="card-white">
-                <h2><i class="fas fa-heart"></i> My Passions</h2>
-            
-                <h3 class="text-bold"><i class="fas fa-mountain"></i> Outdoor Activities</h3>
-                <p class="text-justify">I'm more of an outdoor person. I like sailing, skiing, hiking, and climbing.</p>
-            
-                <h3 class="text-bold"><i class="fas fa-utensils"></i> Food Lover</h3>
-                <p class="text-justify">I will never say no to a fondue or a good plate of delicious food.</p>
-            
-                <h3 class="text-bold"><i class="fas fa-briefcase"></i> Projects</h3>
-                <p class="text-justify">Currently focusing on my studies and professional growth in purchasing.</p>
-            </div>
-        </div>
-
-            <div class="card-white text-center">
-                <h2><i class="fas fa-link"></i> Connect with Me</h2>
-                <ul class="list-inline">
-                    <li><a href="https://www.instagram.com/elsardc/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
-                    <li><a href="https://www.linkedin.com/in/elsa-ricard-7b6185221/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-                </ul>
-            </div>
+    </main>
+    <footer class="contact-card">
+    <div class="contact-content">
+        <img src="IMG_7807.jpg" alt="Elsa Ricard" class="avatar">
+        <div class="contact-info">
+            <h2>Contact</h2>
+            <p><strong>Nom :</strong> Elsa RICARD</p>
+            <p><strong>Poste :</strong> MSc Purchasing at Kedge</p>
+            <p><strong>Email :</strong> <a href="mailto:elsa.ricard@kedgebs.com">elsa.ricard@kedgebs.com</a></p>
         </div>
     </div>
+</footer>
 </body>
 </html>
